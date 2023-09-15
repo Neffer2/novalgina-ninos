@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="Access-Control-Allow-Origin" content="*">
+    <title>Novalgina adultos</title>
+</head>
+<body> 
+    <div class="frame">
+        <div class="row pregunta-container gy-2">
+            <div class="col-md-12">
+                <div class="pregunta">Novalgina alivia la temperatura de manera rápida y prolongada y su acción antipirética es
+                    más eficaz vs Ibuprofeno y Acetaminofén</div>
+            </div>
+            <div class="col-md-12">
+                <div id="correcta" class="opcion mb-2" onclick="getRespuesta(1, this)"> Verdadero. </div>
+                <div class="opcion" onclick="getRespuesta(0, this)"> Falso. </div>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="score-frame">
+        <div class="puntos-container">
+            <span id="score">0</span> PUNTOS
+        </div>
+        <div class="time-container">
+            <span id="countdown">01:00</span>
+        </div>
+    </div>
+    <script>
+        var nextQuestion = 7;
+    </script>
+    <script src="../js/app.js"></script>
+    <script src="../css/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
