@@ -1,0 +1,19 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlCompiler>
+  <App>
+    <ID>{8C3E595D-0438-4BF2-A7C9-C28F2E830A34}</ID>
+    <Name>Novalgina-niños</Name>
+    <IndexHtml>index.html</IndexHtml>
+    <CompanyName>Iglumarketingdigital</CompanyName>
+    <FileDescription>Novalgina-niños</FileDescription>
+    <OriginalFileName>Novalgina-niños</OriginalFileName>
+    <WindowStyle>1</WindowStyle>
+    <Generator>
+      <Name>DecSoft HTML Compiler</Name>
+      <Website>https://www.decsoftutils.com/</Website>
+      <Orders>https://www.decsoftutils.com/store/</Orders>
+      <EMail>info@decsoftutils.com</EMail>
+      <Copyright>©2023 DecSoft HTML Compiler. All rights reserved.</Copyright>
+    </Generator>
+  </App>
+</HtmlCompiler>
